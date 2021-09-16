@@ -12,12 +12,21 @@ This repo is for my course Secondary Development of Remote Sensing Software (202
 
 - 已加载的宏包
     zhnumber    geometry    titlesec    titletoc
+    
     amsmath     amsfonts    amssymb     bm
+    
     amsthm      xcolor      graphicx    float
+    
     array       booktabs    longtable   tabularx
+    
     multirow    bigstrut    diagbox     bigdelim
+    
     cprotect    listings    url         algorithm
+    
     enumitem    placeins    xeCJK       algpseudocode
+    
     fancyhdr    ulem        hyperref    algorithmicx
+    
     caption     tocloft     fontspec    indentfirst
+    
     xunicode    enumitem    xpatch      etoolbox
