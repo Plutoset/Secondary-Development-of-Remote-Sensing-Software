@@ -11,6 +11,7 @@ This repo is for my course Secondary Development of Remote Sensing Software (202
 - 所需下载的字体为[SourceHanSerifSC-Regular.otf](https://github.com/adobe-fonts/source-han-serif/blob/release/OTF/SimplifiedChinese/SourceHanSerifSC-Regular.otf), [SourceHanSerifSC-Bold.otf](https://github.com/adobe-fonts/source-han-serif/blob/release/OTF/SimplifiedChinese/SourceHanSerifSC-Bold.otf), [SourceHanSans-Regular.otf](https://github.com/adobe-fonts/source-han-sans/blob/release/OTF/SimplifiedChinese/SourceHanSansSC-Regular.otf), 如需更替字体可修改cls的216-224行。
 
 - 已加载的宏包
+
     zhnumber    geometry    titlesec    titletoc
     
     amsmath     amsfonts    amssymb     bm
