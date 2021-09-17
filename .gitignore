@@ -24,3 +24,6 @@
 *.xdv
 *.run.xml
 *.synctex.gz
+*.docx
+*.png
+*/figures/
