@@ -152,11 +152,11 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
         |p{0.3\textwidth}
         |}
         \hline
-        \zihao{4}姓名 & \zihao{4}{\@name@input} & 
-        \zihao{4}学号 & \zihao{4}{\@studentID@input} \\
+        \zihao{4}姓名 & \zihao{4}{\textcolor[rgb]{0,0,1}{\@name@input}} & 
+        \zihao{4}学号 & \zihao{4}{\textcolor[rgb]{0,0,1}{\@studentID@input}} \\
         \hline
-        \zihao{4}专业 & \zihao{4}{\@major@input} & 
-        \zihao{4}日期 & \zihao{4}{\@date} \\
+        \zihao{4}专业 & \zihao{4}{\textcolor[rgb]{0,0,1}{\@major@input}} & 
+        \zihao{4}日期 & \zihao{4}{\textcolor[rgb]{0,0,1}{\@date}} \\
         \hline
       \end{tabular}\par}
     \vskip 1em
