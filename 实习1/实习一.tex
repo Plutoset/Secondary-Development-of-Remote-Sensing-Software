@@ -1,0 +1,104 @@
+\documentclass{rsreport}
+\head{1}
+\name{汤博}
+\studentID{10193903446}
+\major{地理科学}
+\begin{document}
+    \maketitle
+    \begin{enumerate}
+        \item 打开 MATLAB 软件 , 完成软件初始化配置 , 具体要求如下 : 
+        \begin{enumerate}
+            \item 开启数据提示功能
+            \begin{figure}[htp]
+            \centering
+                \includegraphics[width=1\textwidth]{figures/1.png}
+            \end{figure}
+            \begin{figure}[htp]
+                \centering
+                    \includegraphics[width=0.5\textwidth]{figures/2.png}
+                \end{figure}
+            \item 下载 HHT 函数包 , 放置到一个固定的文件夹下 , 然后将该函数报加入到 MATLAB 工作环境 , 以便以后调用相关函数开展数据分析 ; 
+            \begin{figure}[htp]
+                \centering
+                    \includegraphics[width=1\textwidth]{figures/3.png}
+                \end{figure}
+        \end{enumerate}
+        \item 分号的用法 $ \to $ 在 MATLAB 命令行中分别输入以下命令 , 查看两个语句的异同 , 并使用函数查看两个变量的详细信息 , 完成后使用相关命令清空 workspace 中的字符串变量\\
+        a = 1 \\
+        b = 'Hello Matlab';
+        \begin{figure}[htp]
+            \centering
+                \includegraphics[width=0.6\textwidth]{figures/4.png}
+            \end{figure}
+        \item 在命令行分别键入c=[1,2,3,4,5] ,  d=[1;2;3;4;5]
+        对比 c 和 d 的差异 , 哪个是行向量 , 哪个是列向量 ? 完成后使用相关命令清空 workspace 中的所有变量
+        \\
+        
+        \begin{lstlisting}[language=matlab]
+c = [1,2,3,4,5];
+d = [1;2;3;4;5];
+whos
+                    \end{lstlisting}
+
+
+        \textcolor[rgb]{0,0,1}{c 是行向量 , d 是列向量 . }
+
+        \begin{figure}[htp]
+            \centering
+                \includegraphics[width=0.6\textwidth]{figures/5.png}
+            \end{figure}
+        \item 使用相关命令清屏 \\
+        \textcolor[rgb]{0,0,1}{输入clc , 然后清屏了}
+        \item 使用 doc 命令查看 whos, clc , clear 的语法及示例。\\
+        
+        \begin{lstlisting}[language=matlab]
+doc whos
+doc clc
+doc clear
+        \end{lstlisting}
+        
+        \begin{minipage}[b]{0.31\textwidth}
+            \includegraphics[width=1\textwidth]{figures/6.png}
+        \end{minipage}
+        \begin{minipage}[b]{0.31\textwidth}
+            \includegraphics[width=1\textwidth]{figures/7.png}
+        \end{minipage}
+        \begin{minipage}[b]{0.31\textwidth}
+            \includegraphics[width=1\textwidth]{figures/8.png}
+        \end{minipage}
+        \item 下载并打开 test.m 程序 , 分别使用快捷键注释第 11 行代码 , 执行程序查看结果 ; 完成上述操作后 , 取消注释该行代码 , 执行后查看结果 , 对比两次操作的异同\\
+        \textcolor[rgb]{0,0,1}{Ctrl + R 注释，Ctrl+ T 取消注释}
+        \begin{figure}[htp]
+            \begin{minipage}[b]{0.45\textwidth}
+                \includegraphics[width=1\textwidth]{figures/9.png}
+            \end{minipage}
+            \begin{minipage}[b]{0.45\textwidth}
+                \includegraphics[width=1\textwidth]{figures/10.png}
+            \end{minipage}
+        \end{figure}
+        \item 分别利用函数创建一个 5x5 大小的零矩阵、1 矩阵、空值阵\\
+        
+        \begin{lstlisting}[language=matlab]
+Zeroarray = zeros(5);
+Onearray = ones(5);
+Nanarray = nan(5);
+        \end{lstlisting}
+         
+        \begin{figure}[H]
+            \begin{minipage}[b]{0.48\textwidth}
+                \includegraphics[width=1\textwidth]{figures/11.png}
+            \end{minipage}
+            \begin{minipage}[b]{0.48\textwidth}
+                \includegraphics[width=1\textwidth]{figures/12.png}
+            \end{minipage}
+            \\
+            \begin{minipage}[b]{0.48\textwidth}
+                \includegraphics[width=1\textwidth]{figures/13.png}
+            \end{minipage}
+            \begin{minipage}[b]{0.48\textwidth}
+                \includegraphics[width=1\textwidth]{figures/14.png}
+            \end{minipage}
+        \end{figure}
+    \end{enumerate}
+
+\end{document}
